@@ -116,6 +116,10 @@
         margin: 0 0 4% 0;
     }
     
+    header {
+    background-attachment: initial;
+}
+    
    .main-nav {
         display:none;
     } 
@@ -243,6 +247,10 @@
     .icon-small {
         width: 30px;
         margin-right: 10px;
+    }
+    
+    .section-testimonials {
+        background-attachment: initial;
     }
     
     footer {
