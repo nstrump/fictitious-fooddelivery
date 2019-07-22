@@ -42,6 +42,10 @@
     section {
         padding: 60px 0;
     }
+
+    header {
+        background-attachment: initial;
+    }
     
     .long-copy {
         width: 80%;
@@ -117,8 +121,8 @@
     }
     
     header {
-    background-attachment: initial;
-}
+        background-attachment: initial;
+    }
     
    .main-nav {
         display:none;
