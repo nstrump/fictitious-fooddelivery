@@ -106,8 +106,14 @@
     }
 }
 
+@media only screen and (max-width: 850px) and (orientation: landscape){
+    .hero-text-box {
+        margin-top: 40px;
+    }
+}
+
 /*Phones to small tablets from 480 to 767 pixels*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (orientation: portrait) {
    
     body {
         font-size: 20px;
@@ -284,8 +290,205 @@
     
 }
 
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+   
+    body {
+        font-size: 20px;
+    }
+    
+    section {
+        padding: 30px 0;
+    }
+    
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    .hero-text-box {
+        margin-top: 40px; 
+    }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    h1 {
+        font-size: 180%;
+    }
+    
+    h2 {
+        font-size: 150%;
+    }
+
+    .main-nav li {
+        margin-left: 20px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 80%;
+    }
+    
+    .long-copy {
+        width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+    
+    .section-features .col {
+        margin: 0 0 2% 0;
+    }
+    
+    .section-features h3 {
+        text-align: center;
+    }
+    
+    .icon-big {
+        text-align: center;
+    }
+    
+    .works-step {
+        margin-bottom: 15px;
+    }
+    
+    .works-step:first-child {
+        margin-bottom: 30px;
+    }
+    
+    .works-step:last-of-type {
+        margin-bottom: 40px;
+    }
+    
+    .works-step div {
+        border: 2px solid #e67e22;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        float: left;
+        font-size: 120%;
+        margin-right: 15px;
+    }
+    
+    .works-step p {
+        padding-top: 7.5px;
+    }
+    
+    .steps-box:first-child {
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    .steps-box:last-of-type {
+        margin-top: 28px;
+    }
+    
+    .app-screen {
+        width: 40%;
+    }
+    
+    .btn-app img {
+        display:block;
+        margin: auto;
+    }
+    
+    .section-cities h3 {
+        font-size: 150%;
+    }
+    
+    .city-feature {
+        font-size: 120%;
+        margin-bottom: 0;
+    }
+    
+    .icon-small {
+        width: 30px;
+        margin-right: 10px;
+    }
+    
+    .section-testimonials {
+        background-attachment: initial;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    footer p {
+        margin-top: 0;
+    }
+    
+    .footer-nav {
+        float: none;
+    }
+    .social-links {
+        float: none;
+    }
+    
+    .footer-nav li, .social-links li {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 650px) and (orientation: landscape) {
+    header {
+        height: 150vh;
+    }
+
+    .main-nav {
+        display:none;
+    } 
+    
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display:block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    
+    .sticky .mobile-nav-icon i {
+        color: #555;
+    }
+
+    .hero-text-box {
+        margin-top: 120px;
+    }
+}
+
 /*Small phones from 0 to 480 pixels*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (orientation: portrait) {
     body {
         font-size: 18px;
     }
